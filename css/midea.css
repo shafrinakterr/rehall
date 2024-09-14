@@ -1,0 +1,178 @@
+@media (max-width: 778px) {
+    .padding {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .mt-5 {
+        margin-top: 30px;
+    }
+
+
+    .banner_section img {
+        width: 300px;
+        height: 40px;
+        margin-top: 24px;
+    }
+
+    .banner_section h6 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .banner_content {
+
+        margin-top: 40px;
+    }
+
+    .banner_content p {
+        font-weight: 500;
+        line-height: 20.93px;
+    }
+
+    .banner_content_img {
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+
+
+
+    .box_1 {
+        width: 155.02px;
+        height: 155.02px;
+        position: absolute;
+        top: 0;
+        left: 125px;
+        z-index: 0;
+
+    }
+
+    .box_1 img {
+
+        width: 155.02px;
+        height: 155.02px;
+
+    }
+
+    .box_2 {
+        width: 197.77px;
+        height: 230.73px;
+        position: absolute;
+        top: 97px;
+        left: 0;
+        z-index: 1;
+
+    }
+
+    .box_2 img {
+        width: 155.02px;
+        height: 155.02px;
+    }
+
+    .box_3 {
+        width: 206.09px;
+        height: 153.37px;
+        position: absolute;
+        top: 227px;
+        right: 70px;
+        z-index: 2;
+
+
+    }
+
+    .box_3 img {
+        width: 206.09px;
+        height: 153.37px;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .ons_doel {
+        text-align: start;
+        padding: 10px;
+    }
+
+    .ons_doel_content h5 {
+        font-size: 20px;
+
+    }
+
+    .ons_doel_content h2 {
+        font-size: 30px;
+        line-height: 39.24px;
+        width: 100%;
+
+    }
+
+    .rides_content h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .verhall_container h2 {
+        font-size: 30px;
+        width: 100%;
+        margin: 20px auto;
+        line-height: 40px;
+
+    }
+
+    .verhal_img {
+        height: px;
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .verhal_img img {
+       z-index: 0;
+       width: 335px;
+       height: 186px;
+       object-fit: cover;
+       margin: 0 auto;
+    }
+    .logo{
+        display: none;
+    }
+
+    .mb_log{
+        display: block;
+        width: 150px;
+        height: 74px;
+    }
+    .img_box1, .img_box2, .img_box3{
+        position: relative;
+    }
+
+    .log_img_1, .log_img_2, .log_img_3{
+        position: absolute;
+        transform: translate(23%, -180%);
+
+
+    }
+    .verhall_section{
+        padding: 10px;
+    }
+
+    footer{
+        margin-top: 30px;
+        background: #D0D0D0;
+        padding: 10px;
+    }
+
+    .flag{
+        display: none;
+    }
+
+}
