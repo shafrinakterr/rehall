@@ -218,28 +218,21 @@ h1 {
 
 /* rides_section */
 
-.rides_section {
-    background-image: url(../img/ride.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #fff;
-    margin-top: 70px;
+.rides_section{
+    background-image: url("../img/ride.png");
     background-attachment: fixed;
-}
-
-.rides_contant {
-    height: 489px;
-}
-
-.rides_content {
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    margin: 0 0 30px 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 489px;
 }
 
-.rides_content a {
+.rides_section a {
     text-decoration: none;
     border-radius: 10px;
     padding: 10px 30px;
@@ -249,7 +242,7 @@ h1 {
     border: 1px solid white;
 }
 
-.rides_content h2 {
+.rides_section h2 {
     font-size: 40px;
     font-weight: 500;
 }
@@ -282,7 +275,8 @@ h1 {
     width: 360px;
     height: 492px;
 }
-.verhal_img img{
+
+.verhal_img img {
     display: block;
 }
 
@@ -290,59 +284,68 @@ h1 {
     height: 59px;
     width: 224px;
     margin-top: 40px;
-   object-fit: coover;
+    object-fit: coover;
 }
-.mb_log{
+
+.mb_log {
     display: none;
 }
 
-footer{
+footer {
     margin-top: 60px;
     background: #e2e2e2;
     padding: 10px 0px;
 }
-footer p{
+
+footer p {
     margin-top: 60px;
 }
 
-.footer_container h3{
+.footer_container h3 {
     border-bottom: 1px solid rgb(121, 121, 121);
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.footer_menu li a{
+.footer_menu li a {
     text-decoration: none;
     color: #000000;
     line-height: 28px;
     font-size: 18px;
 }
-.fa-star{
+
+.fa-star {
     color: green;
 }
-.footer_title{
+
+.footer_title {
     font-size: 20px;
 }
-.dropdown{
+
+.dropdown {
     width: 100%;
     text-align: end;
     padding-right: 10px;
 }
-.flag_btn{
+
+.flag_btn {
     border-top: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     border-radius: 8px 8px 0 0;
 }
-.flag_btn:hover{
+
+.flag_btn:hover {
     border-top: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
-.flag_btn:focus{
+
+.flag_btn:focus {
     outline: 0;
 }
-.flag_img{
+
+.flag_img {
     width: 40px;
 }
